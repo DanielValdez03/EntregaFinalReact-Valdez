@@ -8,8 +8,83 @@
   justify-content: center;
 }
 .card-detail{
-  max-width: 540px;
+  width: 70%;
 }
-.bi-cart{
-  color: white;
+
+.card-img-top{
+  height: 300px;
+}
+.button-cantidad{
+  border: none;
+  background-color: aquamarine;
+  margin: 0 5px ;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+.numero-cantidad{
+  font-size: 20px;
+  margin: 0;
+}
+.card-carrito{
+  display: flex;
+  padding: 15px;
+  width: 100%;
+  background-color: rgb(255, 214, 160);
+  border-radius: 10px;
+}
+.card-carrito img{
+  width: 10rem;
+}
+.card-description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: .5rem;
+  width: 100%;
+}
+.carrito-container{
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem;
+}
+.titulo-carrito{
+  display: inline-block;
+  padding: 15px;
+  margin: 1.5rem ;
+  background-color: rgb(255, 214, 160);
+  border-radius: 10px;
+}
+.button-vaciar{
+  border: none;
+  background-color: rgb(255, 214, 160);
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 1.5rem ;
+  padding: 15px;
+}
+.checkout-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+.formulario-checkout{
+  border: 4px solid rgb(255, 214, 160);
+  border-radius: 10px;
+  outline: none;
+  text-align: center;
+  width: 300px;
+ 
+}
+.formulario-checkout:hover{
+  transform: scale(1.1);
+}
+.button-pagar{
+ border: none;
+  width: 100px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(255, 214, 160);
 }
